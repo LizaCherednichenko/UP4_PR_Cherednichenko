@@ -48,5 +48,11 @@ namespace UP4_PR_Cherednichenko
             Window Window3b = new Window3b();
             Window3b.Show();
         }
+
+        private void MenuItem_Click_4(object sender, RoutedEventArgs e)
+        {
+            Window Window3V = new Window3V();
+            Window3V.Show();
+        }
     }
 }
