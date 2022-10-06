@@ -73,6 +73,21 @@
     <Compile Include="Window3V.xaml.cs">
       <DependentUpon>Window3V.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window4A.xaml.cs">
+      <DependentUpon>Window4A.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4b.xaml.cs">
+      <DependentUpon>Window4b.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4D.xaml.cs">
+      <DependentUpon>Window4D.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4G.xaml.cs">
+      <DependentUpon>Window4G.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4V.xaml.cs">
+      <DependentUpon>Window4V.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -106,6 +121,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window3V.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4A.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4b.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4D.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4G.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4V.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -21,7 +21,7 @@
                     <MenuItem Header="задание 3Г" Click="MenuItem_Click_5"/>
                 </MenuItem>
                 <MenuItem Header="задание 4">
-                    <MenuItem Header="задание 4А"/>
+                    <MenuItem Header="задание 4А" Click="MenuItem_Click_6"/>
                     <MenuItem Header="задание 4Б"/>
                     <MenuItem Header="задание 4В"/>
                     <MenuItem Header="задание 4Г"/>
