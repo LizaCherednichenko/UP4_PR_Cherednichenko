@@ -5,8 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP4_PR_Cherednichenko"
         mc:Ignorable="d"
-        Title="Чередниченко УП4" Height="450" Width="800">
+        Title="Чередниченко УП4" Height="382.353" Width="298.529">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu Margin="0,0,182,315" Background="{x:Null}">
+            <MenuItem Header="Задания" Height="26" Width="99" Background="White" BorderBrush="Black" >
+                <MenuItem Header="задание 1" Click="MenuItem_Click"/>
+                <MenuItem Header="задание 2" Click="MenuItem_Click_1"/>
+                <MenuItem Header="задание 3">
+                    <MenuItem Header="задание 3А" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="задание 3Б"/>
+                    <MenuItem Header="задание 3В"/>
+                    <MenuItem Header="задание 3Г"/>
+                </MenuItem>
+                <MenuItem Header="задание 4">
+                    <MenuItem Header="задание 4А"/>
+                    <MenuItem Header="задание 4Б"/>
+                    <MenuItem Header="задание 4В"/>
+                    <MenuItem Header="задание 4Г"/>
+                    <MenuItem Header="задание 4Д"/>
+                </MenuItem>
+                <MenuItem Header="задание 5">
+                    <MenuItem Header="задание 5А"/>
+                    <MenuItem Header="задание 5Б"/>
+                    <MenuItem Header="задание 5В"/>
+                    <MenuItem Header="задание 5Г"/>
+                    <MenuItem Header="задание 5Д"/>
+                </MenuItem>
+                <MenuItem Header="задание 6">
+                    <MenuItem Header="задание 6А"/>
+                    <MenuItem Header="задание 6Б"/>
+                </MenuItem>
+                <MenuItem Header="задание 7">
+                    <MenuItem Header="задание 7А"/>
+                    <MenuItem Header="задание 7Б"/>
+                    <MenuItem Header="задание 7В"/>
+                </MenuItem>
+                <MenuItem Header="задание 8">
+                    <MenuItem Header="задание 8А"/>
+                    <MenuItem Header="задание 8Б"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
