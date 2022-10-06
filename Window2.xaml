@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP4_PR_Cherednichenko"
         mc:Ignorable="d"
-        Title="Задание 2" Height="450" Width="800">
+        Title="Задание 2" Height="107.786" Width="804.503">
+
+    <Window.Resources>
+        <Style TargetType="Label" x:Key="label1">
+            <Setter Property="BorderBrush" Value="Violet"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="#FFFFD6FF"/>
+            <Setter Property= "FontSize" Value="18"/>
+            <Setter Property= "HorizontalContentAlignment" Value="Center"/>
+            <Setter Property= "VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Window.Resources>
+
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Column="0" Style="{StaticResource label1}" Content=".g-col-6"/>
+        <Label Grid.Column="1" Style="{StaticResource label1}" Content="1"/>
+        <Label Grid.Column="2" Style="{StaticResource label1}" Content="1"/>
+        <Label Grid.Column="3" Style="{StaticResource label1}" Content="1"/>
+        <Label Grid.Column="4" Style="{StaticResource label1}" Content="1"/>
+        <Label Grid.Column="5" Style="{StaticResource label1}" Content="1"/>
+        <Label Grid.Column="6" Style="{StaticResource label1}" Content="1"/>
+        <Label Grid.Column="7" Style="{StaticResource label1}" Content="1"/>
     </Grid>
 </Window>
