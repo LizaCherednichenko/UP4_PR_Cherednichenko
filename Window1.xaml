@@ -5,18 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP4_PR_Cherednichenko"
         mc:Ignorable="d"
-        Title="Задание 1" Height="153.443" Width="800">
+        Title="Задание 1" Height="96.096" Width="800">
 
     <Window.Resources>
         <Style TargetType="Label" x:Key="label1">
             <Setter Property="BorderBrush" Value="Violet"/>
-            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="Background" Value="#FFFFD6FF"/>
-            <Setter Property="Width" Value="50"/>
-            <Setter Property="Height" Value="50"/>
             <Setter Property= "FontSize" Value="18"/>
             <Setter Property= "HorizontalContentAlignment" Value="Center"/>
             <Setter Property= "VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="10"/>
         </Style>
     </Window.Resources>
     
