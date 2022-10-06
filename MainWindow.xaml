@@ -22,10 +22,10 @@
                 </MenuItem>
                 <MenuItem Header="задание 4">
                     <MenuItem Header="задание 4А" Click="MenuItem_Click_6"/>
-                    <MenuItem Header="задание 4Б"/>
-                    <MenuItem Header="задание 4В"/>
-                    <MenuItem Header="задание 4Г"/>
-                    <MenuItem Header="задание 4Д"/>
+                    <MenuItem Header="задание 4Б" Click="MenuItem_Click_7"/>
+                    <MenuItem Header="задание 4В" Click="MenuItem_Click_8"/>
+                    <MenuItem Header="задание 4Г" Click="MenuItem_Click_9"/>
+                    <MenuItem Header="задание 4Д" Click="MenuItem_Click_10"/>
                 </MenuItem>
                 <MenuItem Header="задание 5">
                     <MenuItem Header="задание 5А"/>
