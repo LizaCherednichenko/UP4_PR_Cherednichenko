@@ -16,7 +16,7 @@
                 <MenuItem Header="задание 2" Click="MenuItem_Click_1"/>
                 <MenuItem Header="задание 3">
                     <MenuItem Header="задание 3А" Click="MenuItem_Click_2"/>
-                    <MenuItem Header="задание 3Б"/>
+                    <MenuItem Header="задание 3Б" Click="MenuItem_Click_3"/>
                     <MenuItem Header="задание 3В"/>
                     <MenuItem Header="задание 3Г"/>
                 </MenuItem>
