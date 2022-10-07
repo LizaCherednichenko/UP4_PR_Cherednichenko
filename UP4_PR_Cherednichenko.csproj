@@ -88,6 +88,21 @@
     <Compile Include="Window4V.xaml.cs">
       <DependentUpon>Window4V.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window5A.xaml.cs">
+      <DependentUpon>Window5A.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window5b.xaml.cs">
+      <DependentUpon>Window5b.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window5D.xaml.cs">
+      <DependentUpon>Window5D.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window5G.xaml.cs">
+      <DependentUpon>Window5G.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window5V.xaml.cs">
+      <DependentUpon>Window5V.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -141,6 +156,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window4V.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5A.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5b.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5D.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5G.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5V.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
