@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP4_PR_Cherednichenko"
         mc:Ignorable="d"
-        Title="Задание 4G" Height="450" Width="800">
-    <Grid>
-        
+        Title="Задание 4В" Height="263.415" Width="800">
+
+    <Window.Resources>
+        <Style TargetType="Label" x:Key="label1">
+            <Setter Property="Background" Value="#FF9AE6AF"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="BorderBrush" Value="#FF0A3013"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0 , 8"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#FFB8A9CD">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Content=".col-md-8" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Style="{StaticResource label1}"/>
+        <Label Content=".col-6 .col-md-4" Grid.Row="0" Grid.Column="3" Style="{StaticResource label1}"/>
+        <Label Content=".col-6 .col-md-4" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Style="{StaticResource label1}"/>
+        <Label Content=".col-6 .col-md-4" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource label1}"/>
+        <Label Content=".col-6 .col-md-4" Grid.Row="1" Grid.Column="3" Style="{StaticResource label1}"/>
+        <Label Content=".col-6" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource label1}"/>
+        <Label Content=".col-6" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Style="{StaticResource label1}"/>
     </Grid>
 </Window>
