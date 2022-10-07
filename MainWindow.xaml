@@ -28,11 +28,11 @@
                     <MenuItem Header="задание 4Д" Click="MenuItem_Click_10"/>
                 </MenuItem>
                 <MenuItem Header="задание 5">
-                    <MenuItem Header="задание 5А"/>
-                    <MenuItem Header="задание 5Б"/>
-                    <MenuItem Header="задание 5В"/>
-                    <MenuItem Header="задание 5Г"/>
-                    <MenuItem Header="задание 5Д"/>
+                    <MenuItem Header="задание 5А" Click="MenuItem_Click_11"/>
+                    <MenuItem Header="задание 5Б" Click="MenuItem_Click_12"/>
+                    <MenuItem Header="задание 5В" Click="MenuItem_Click_13"/>
+                    <MenuItem Header="задание 5Г" Click="MenuItem_Click_14"/>
+                    <MenuItem Header="задание 5Д" Click="MenuItem_Click_15"/>
                 </MenuItem>
                 <MenuItem Header="задание 6">
                     <MenuItem Header="задание 6А"/>
